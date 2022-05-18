@@ -252,29 +252,94 @@
                 </li>
 
             </ul>
-            <span class="contact">Contact us</span>
+            <span class="contact">Contact Us</span>
             <span class="reach-out">Reach Out with any question you have</span>
             <div class="rectangle-1948">
-                <div >
-                    <span class="contact-info">Contact Information</span>
+                <div class="owner-contact mt-5">
+                    <span class="contact-info ">Contact Information</span>
                     <ul style="list-style: none;">
-                        <div class="m">
+                        <div class="row">
                             <li class="mail-s" ></li>
-                            <li class="mail">contact@coursepro.com</li>
+                            <li class="mail"><br/>contact@coursepro.com</li>
                         </div>
-                        <div>
+                        <div class="row">
                             <li class="call-s"></li>
-                            <li class="call">1800-562-895, 1800-869-877</li>
+                            <li class="call"><br/>1800-562-895, 1800-869-877</li>
                         </div>
-                        <div>
+                        <div class="row mb-5">
                             <li class="address-s"></li>
-                        <li class=" address">102 Street, India</li>
+                        <li class=" address"><br/>102 Street, India</li>
+                        </div>
+
+                        <div class="row mt-5 mb-5  ml-5 mp-5">
+                            <li class="sm-channel">Social Media Channels</li>
+                        </div>
+                        <div class="row mt-5 ml-5 mp-5">
+                            <div class="col">
+                                <li class="fb"></li>
+                            </div>
+                             <div class="col">
+                                <li class="twitter"></li>
+                            </div>
+                             <div class="col">
+                                <li class="git"></li>
+                            </div>
+                             <div class="col">
+                                <li class="ln"></li>
+                            </div>
                         </div>
                     </ul>
-            
+    
                 </div>
                 <!-- <div class="fill-up">Fill up the form and our team will get back to you within 24 hours</div> -->
+
+                <div>
+                    <div class="customer-info mt-5">
+                        <div class="fill-up mb-3">Fill up the form and our team will get back to you within 24 hours<br/></div>
+                        <div class="group-11197">
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <label for="name" class="form-label contact-name">Name </label>
+                                    <input type="text" class="form-control contact-name-input" id="name" >
+                                </div>
+                                <div class="col">
+                                    <label for="email" class="form-label contact-email">Email </label>
+                                    <input type="email" class="form-control contact-email-input" id="email" >
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <label for="phone" class="form-label contact-phone">Phone </label>
+                                    <input type="text" class="form-control contact-phone-input" id="phone" >
+                                </div>
+                                <div class="col">
+                                    <label for="subject" class="form-label contact-subject">Subject </label>
+                                    <input type="text" class="form-control contact-subject-input" id="subject" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <textarea class="form-control contact-message contact-message-input" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                            </div>
+
+                            <div class="row rectangle-23-2 mt-3">
+                        
+                                <button type="submit" class="rectangle-23-2 submit-btn">Submit</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+             <div class="rectangle-1958">
+                <div class="group-12055">
+                    <span class="course-pro-pvt-ltd">2021-2022 © Course Pro Private Limited</span>
+                    <div class="ftr-box">
+                    <span class="terms">Term &#38; Condition </span>
+                    <span class="privacy-policy"> Privacy Policy</span>
+                    </div>
+                </div>
+            </div>
+           
     </div>
 </template>
 
@@ -1687,7 +1752,9 @@ opacity:1;
     background: #F8F9FB 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-
+.owner-contact{
+    float:left;
+}
 .contact-info{
 
     top: 5433px;
@@ -1723,8 +1790,8 @@ background: transparent url('../../public/img/Group 10750.svg') 0% 0% no-repeat 
 opacity: 1;
 }
 .mail{
-top: 5564px;
-left: 355px;
+top: 5583px;
+left: 347px;
 width: 302px;
 height: 34px;
 text-align: left;
@@ -1774,5 +1841,239 @@ font: normal normal bold 25px/34px Noto Sans;
 letter-spacing: 0.5px;
 color: #201F23;
 opacity: 0.8;
+}
+
+
+.customer-info{
+    float:right;
+}
+.group-11197{
+    top: 5564px;
+    left: 918px;
+    width: 793px;
+    height: 613px;
+    opacity: 1;
+}
+.contact-name{
+top: 5564px;
+left: 918px;
+width: 58px;
+height: 30px;
+text-align: left;
+font: italic normal normal 22px/31px Noto Sans;
+letter-spacing: 0px;
+color: #86919D;
+opacity: 1;
+}
+.contact-email{
+top: 5564px;
+left: 1361px;
+width: 54px;
+height: 30px;
+text-align: left;
+font: italic normal normal 22px/31px Noto Sans;
+letter-spacing: 0px;
+color: #86919D;
+opacity: 1;
+
+}
+.contact-phone{
+top: 5674px;
+left: 918px;
+width: 61px;
+height: 30px;
+text-align: left;
+font: italic normal normal 22px/31px Noto Sans;
+letter-spacing: 0px;
+color: #86919D;
+opacity: 1;
+
+}
+.contact-subject{
+top: 5674px;
+left: 1361px;
+width: 71px;
+height: 30px;
+text-align: left;
+font: italic normal normal 22px/31px Noto Sans;
+letter-spacing: 0px;
+color: #86919D;
+opacity: 1;
+}
+.contact-message{
+top: 5814px;
+left: 948px;
+width: 85px;
+height: 30px;
+text-align: left;
+font: italic normal normal 22px/31px Noto Sans;
+letter-spacing: 0px;
+color: #86919D;
+opacity: 1;
+}
+.contact-name-input{
+top: 5612px;
+left: 919px;
+width: 349px;
+height: 0px;
+border: 2px solid #01CB63;
+opacity: 1;
+}
+.contact-email-input{
+top: 5612px;
+left: 1360px;
+width: 349px;
+height: 0px;
+border: 2px solid #01CB63;
+opacity: 1;
+}
+.contact-phone-input{
+top: 5722px;
+left: 919px;
+width: 349px;
+height: 0px;
+border: 2px solid #01CB63;
+opacity: 1;
+}
+.contact-subject-input{
+top: 5722px;
+left: 1361px;
+width: 349px;
+height: 0px;
+border: 2px solid #01CB63;
+opacity: 1;
+}
+.contact-message-input{
+    top: 5784px;
+left: 919px;
+width: 792px;
+height: 272px;
+border: 2px solid #01CB63;
+border-radius: 2px;
+opacity: 1;
+}
+
+.rectangle-23-2{
+
+top: 6107px;
+left: 1185px;
+width: 242px;
+height: 70px;
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+.submit-btn{
+top: 6125px;
+left: 1263px;
+width: 81px;
+height: 34px;
+text-align: left;
+font: normal normal normal 25px/50px Noto Sans;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.sm-channel{
+top: 6003px;
+left: 245px;
+width: 384px;
+height: 47px;
+text-align: left;
+font: normal normal bold 35px/34px Noto Sans;
+letter-spacing: 0.7px;
+color: #201F23;
+opacity: 1;
+}
+.fb{
+top: 6110px;
+left: 245px;
+width: 67px;
+height: 67px;
+background: transparent url('../../public/img/Facebook.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.twitter{
+top: 6110px;
+left: 366px;
+width: 67px;
+height: 67px;
+background: transparent url('../../public/img/twitter2.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.git{
+top: 6110px;
+left: 485px;
+width: 66px;
+height: 67px;
+background: transparent url('../../public/img/Github.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.ln{
+top: 6110px;
+left: 606px;
+width: 67px;
+height: 67px;
+background: transparent url('../../public/img/Linkedin.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.rectangle-1958{
+    position: absolute;
+top: 6276px;
+left: 0px;
+width: 1920px;
+height: 150px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.group-12055{
+top: 6276px;
+left: 0px;
+width: 1920px;
+height: 150px;
+opacity: 1;
+}
+.course-pro-pvt-ltd{
+top: 6334px;
+left: 140px;
+width: 489px;
+height: 34px;
+text-align: left;
+font: normal normal bold 25px/34px Noto Sans;
+letter-spacing: 0px;
+color: #1F2532;
+text-transform: capitalize;
+opacity: 1;
+
+}
+
+.ftr-box{
+    float: right;
+}
+.terms{
+top: 6336px;
+left: 1387px;
+width: 191px;
+height: 30px;
+text-align: left;
+font: normal normal bold 22px/30px Noto Sans;
+letter-spacing: 0px;
+color: #1F2532;
+text-transform: capitalize;
+opacity: 1;
+
+}
+.privacy-policy{
+top: 6336px;
+left: 1629px;
+width: 151px;
+height: 30px;
+text-align: left;
+font: normal normal bold 22px/30px Noto Sans;
+letter-spacing: 0px;
+color: #1F2532;
+text-transform: capitalize;
+opacity: 1;
 }
 </style>
