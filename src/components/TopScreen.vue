@@ -4,7 +4,7 @@
             <nav class="navbar navbar-light bg-light group-2">
                 <div class="container group-3">
                     <a class="navbar-brand" href="#">
-                        <img src="/assets/Group 3.png" alt="" />
+                        <img src="../../public/Group 3.png" alt="" />
                     </a>
                     <!-- <a class="navbar-brand c" href="#">
                         C
