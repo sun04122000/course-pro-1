@@ -4,7 +4,7 @@
             <nav class="navbar navbar-light bg-light group-2">
                 <div class="container group-3">
                     <a class="navbar-brand" href="#">
-                        <img src="../../public/img/Group 3.png" alt="" />
+                        <!-- <img src="../../public/img/Group 3.svg" alt="alt" /> -->
                     </a>
                     <!-- <a class="navbar-brand c" href="#">
                         C
@@ -310,7 +310,7 @@ export default {
     left: 140px;
     width: 212px;
     height: 55px;
-    background: transparent url('C:/Users/hp/course-pro/src/assets/Group 3.png') 0% 0% no-repeat padding-box;
+    /* background: transparent url('../../public/img/Group 3.svg') 0% 0% no-repeat padding-box; */
     opacity: 1;
 }
 
@@ -479,7 +479,7 @@ export default {
     height: 783px;
 
     /* UI Properties */
-    background: transparent url('C:/Users/hp/course-pro/src/assets/Rectangle 25@2x.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../../public/img/Rectangle 25.svg') 0% 0% no-repeat padding-box;
     mix-blend-mode: multiply;
     opacity: 0.55;
 }
@@ -507,7 +507,7 @@ export default {
     left: 0px;
     width: 1920px;
     height: 349px;
-    background: transparent url('C:/Users/hp/course-pro/src/assets/Group 12141@2x.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../../public/img/Group 12141.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
