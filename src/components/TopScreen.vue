@@ -4,7 +4,7 @@
             <nav class="navbar navbar-light bg-light group-2">
                 <div class="container group-3">
                     <a class="navbar-brand" href="#">
-                        <!-- <img src="../../public/img/Group 3.svg" alt="alt" /> -->
+                        <!-- <img src="C:/Users/hp/course-pro-2/public/img/Group 3.svg" alt="alt_text" /> -->
                     </a>
                     <!-- <a class="navbar-brand c" href="#">
                         C
@@ -310,7 +310,7 @@ export default {
     left: 140px;
     width: 212px;
     height: 55px;
-    /* background: transparent url('../../public/img/Group 3.svg') 0% 0% no-repeat padding-box; */
+    background: transparent url('../../public/img/Group 3.svg') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
