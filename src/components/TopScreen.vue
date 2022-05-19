@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <div class="rectangle-1">
             <nav class="navbar navbar-light bg-light group-2">
                 <div class="container group-3">
@@ -200,7 +201,7 @@
             </div>
             <span class="testimonials">Testimonials</span>
             <span class="check-out">Check out What Our Students Think About Us</span>
-            <ul>
+            <ul style="list-style: none;">
                 <!-- <li >
                     <div class="rectanlge-next rectangle-11516">
                         <p class=" group-26-next content">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p>
@@ -219,14 +220,42 @@
                         <span class=" sign-copy"></span>
                     </div>
                 </li> -->
+                <li class="rectangle-next"></li>
+                <li class="rectangle-copy"></li>
+                <li><p class=" content">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p></li>
+                <li><p class=" content-copy">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p></li>
                 <li>
+                    <div class="group-8">
+                        <!-- <div class="bitmap profile">
+                            <span class=" profile">P</span>
+                        </div> -->
+                        <div class="group-27">
+                            <span class=" name">Anshul&nbsp;Jain </span>
+                            <span class=" day">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="group-11564 sign"></div>    
+                </li>
+                <li>
+                    <div class="group-8-copy">
+                        <!-- <div class="bitmap-copy profile-copy">
+                            <span class=" profile-copy">P</span>
+                        </div> -->
+                        <div class="group-27-copy">
+                            <span class=" name-copy">Rajkumar&nbsp;Jain </span>
+                            <span class=" day-copy">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="group-11564-copy sign-copy"></div>    
+                </li>
+                <!-- <li>
                     <div class="rectangle-next">      
                         <div class="group-26-next">   
                             <div class="group-11565">               
                                 <p class=" content">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p>
                                 <div class="group-8">
                                     <div class="bitmap profile">
-                                        <!-- <span class=" profile">P</span> -->
+                                        <span class=" profile">P</span>
                                     </div>
                                     <div class="group-27">
                                         <span class=" name">AnshulJain </span>
@@ -245,7 +274,7 @@
                                 <p class=" content-copy">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p>
                                 <div class="group-8-copy">
                                     <div class="bitmap-copy profile-copy">
-                                        <!-- <span class=" profile">P</span> -->
+                                        <span class=" profile">P</span>
                                     </div>
                                     <div class="group-27-copy">
                                         <span class=" name-copy">RajkumarJain </span>
@@ -256,7 +285,7 @@
                             </div>
                         </div>
                     </div>
-                </li>
+                </li> -->
 
             </ul>
             <span class="contact">Contact Us</span>
@@ -1565,6 +1594,7 @@ height: 36px;
 opacity: 1;
 }
 .bitmap{
+    position:absolute;
 top: 4850px;
 left: 214px;
 width: 79px;
@@ -1574,6 +1604,7 @@ opacity: 1;
 }
 
 .group-8{
+    position:absolute;
     top: 4850px;
 left: 224px;
 width: 165px;
@@ -1596,7 +1627,7 @@ opacity: 1;
     opacity: 1;
 }
 .content{
-    /* position: absolute; */
+    position: absolute;
     top: 4654px;
     left: 224px;
     width: 664px;
@@ -1641,7 +1672,7 @@ opacity: 1;
     opacity: 1;
 }
 .sign{
-    /* position: absolute; */
+    position: absolute;
     float:right;
     top: 4858px;
     left: 824px;
@@ -1652,7 +1683,7 @@ opacity: 1;
 }
 
 
-.rectanlge-copy{
+.rectangle-copy{
     position: absolute;
 top: 4586px;
 left: 986px;
@@ -1679,6 +1710,7 @@ height: 354px;
 opacity: 1;
 }
 .group-8-copy{
+    position:absolute;
 top: 4850px;
 left: 1031px;
 width: 191px;
@@ -1686,6 +1718,7 @@ height: 52px;
 opacity: 1;
 }
 .bitmap-copy{
+    position:absolute;
 top: 4850px;
 left: 1021px;
 width: 79px;
@@ -1708,6 +1741,7 @@ height: 36px;
 opacity: 1;
 }
 .content-copy{
+    position: absolute;
 top: 4654px;
 left: 1031px;
 width: 664px;
@@ -1749,6 +1783,7 @@ color: #545D7A;
 opacity:1;
 }
 .sign-copy{
+    position:absolute;
     top: 4858px;
     left: 1631px;
     width: 45px;
