@@ -98,16 +98,23 @@
                 <span class="courses">Courses</span>
                 <span class="omp-courses">Our most popular courses</span> 
                 <ul style="list-style: none;">   
-                    <li class="rectangle-1930 group-10769 wes-hicks"></li>
-                     <li class="rectangle-1930 group-10769 primary-concept"></li>
-                      <li class="rectangle-1930 group-10769 magnet-me"></li>
+                    <li class="rectangle-1930-1"></li>
+                     <li class="rectangle-1930-2"></li>
+                      <li class="rectangle-1930-3"></li>
+                </ul>
+
+                <ul style="list-style: none;">   
+                    <li class="group-10769 wes-hicks"></li>
+                     <li class="group-10769 primary-concept"></li>
+                      <li class="group-10769 magnet-me"></li>
                 </ul>
                 <ul style="list-style: none;">   
                     <li class="rectangle-1933 business">Business</li>
                      <li class="rectangle-1933 design">Design</li>
                       <li class="rectangle-1933 marketing">Marketing</li>
                 </ul>
-                
+            
+
                 <ul style="list-style: none;">   
                     <li class="ultimate-business">Ultimate Business Intelligence Analyst A to Z Course 2021</li>
                      <li class="adobe-photoshop">Adobe Photoshop Training: From Beginner to Pro</li>
@@ -738,6 +745,39 @@ export default {
     opacity: 1;
 }
 
+.rectangle-1930-1{
+    position: absolute;
+top: 1562px;
+left: 143px;
+width: 500px;
+height: 600px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E6E6E6;
+border-radius: 15px;
+opacity: 1;
+}
+.rectangle-1930-2{
+    position: absolute;
+top: 1562px;
+left: 710px;
+width: 500px;
+height: 600px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E6E6E6;
+border-radius: 15px;
+opacity: 1;
+}
+.rectangle-1930-3{
+    position: absolute;
+top: 1562px;
+left: 1280px;
+width: 500px;
+height: 600px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E6E6E6;
+border-radius: 15px;
+opacity: 1;
+}
 .group-10769{
     top: 1562px;
     left: 140px;
@@ -753,6 +793,7 @@ export default {
     width: 500px;
     height: 300px;
     /* background: transparent url('img/wes-hicks-4-EeTnaC1S4-unsplash.png') 0% 0% no-repeat padding-box; */
+    /* background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZzl0qcKFpDdFY6isrMyhMmu8SGwXc0BitIBhOrAZ4w&s') 0% 0% no-repeat padding-box;  */
     border-radius: 15px 15px 0px 0px;
     opacity: 1;
 }
