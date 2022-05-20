@@ -23,9 +23,9 @@
 
     <a class="navbar-brand c" href="#">C</a>
     <a class="navbar-brand c-pro" href="#">Course Pro</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
@@ -60,19 +60,19 @@
         <div class="card-group">
             <div class="card card-2">
                 <div class="card-body">
-                    <p class="num-holder">Total Students</p>
+                    <p class="num-holder">Total Students<br/></p>
                     <u class="hz-line"><p class="num">5140</p></u>
                 </div>
             </div>
             <div class="card card-2">
                 <div class="card-body">
-                    <p class="num-holder">Partners</p>
+                    <p class="num-holder">Partners<br/></p>
                     <u class="hz-line"><p class="num">4123</p></u>
                 </div>
             </div>
             <div class="card card-2">
                 <div class="card-body">
-                    <p class="num-holder">Affiliate Distribution</p>
+                    <p class="num-holder">Affiliate Distribution<br/></p>
                     <u class="hz-line"><p class="num">4.18 Lac</p></u>
                 </div>
             </div>
@@ -85,9 +85,9 @@
 
         <div class="card-group">
             <div class="card course-card mx-5">
-                <img src="../../public/img/jonas-kakaroto-mjRwhvqEC0U-unsplash.png" class="card-img-top course-img" alt="..."/>
+                <img src="../../public/img/business.png" class="card-img-top course-img" alt="..."/>
                 <div class="card-body">
-                <h5 class="card-title">Ultimate Business Intelligence Analyst A to Z Course 2021</h5>
+                <h5 class="card-title">Ultimate Business Intelligence<br/> Analyst A to Z Course 2021</h5>
                 <p class="card-text"><b>46,995</b> Student</p>
                 <!-- <span class="card-text duration-card"><img src="../../public/img/schedule-24px.svg" alt="" />11 hr 20 mins &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<span class="n-lec"><img src="../../public/img/date_range-24px.svg" alt="" />44 Lectures</span></span>
                 <hr/>
@@ -103,16 +103,16 @@
                 <!-- <hr/><span><img src="../../public/img/twitter2.svg" alt="..."/><span class="user-n">Wanda Willson</span>&emsp;<span class="p1">₹3000</span><span class="p2">₹3000</span></span> -->
                 <!--  -->
                 <ul class="list-group  list-group-horizontal-sm">
-                                <li class="list-group-item" style="border:none;"><img src="../../public/img/twitter2.svg" alt=""></li>
+                                <li class="list-group-item" style="border:none;margin-top:-2.5%"><img src="../../public/img/twitter2.svg" alt=""></li>
                                 <li class="list-group-item user-n" style="border:none;">Albert Hitler</li>
                                 <li class="list-group-item  ms-auto" style="border:none;"><span class="p1">₹2000</span><span class="p2">₹2000</span></li>    
                 </ul>
                 </div>
             </div>
             <div class="card course-card mx-5">
-                <img src="../../public/img/jonas-kakaroto-mjRwhvqEC0U-unsplash.png" class="card-img-top course-img" alt="..."/>
+                <img src="../../public/img/marketing.png" class="card-img-top course-img" alt="..."/>
                 <div class="card-body">
-                <h5 class="card-title">Adobe Photoshop Training: From Beginner to Pro</h5>
+                <h5 class="card-title">Adobe Photoshop Training: From<br/> Beginner to Pro</h5>
                 <p class="card-text"><b>6,995</b> Student</p>
                 <!-- <span class="card-text duration-card"><img src="../../public/img/schedule-24px.svg" alt="" />6 hr 20 mins  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<span class="n-lec"><img src="../../public/img/date_range-24px.svg" alt="" />24 Lectures</span></span> -->
                 <ul class="list-group  list-group-horizontal-sm">
@@ -125,16 +125,16 @@
                 <!-- <hr/><span><img src="../../public/img/twitter2.svg" alt="..."/><span class="user-n">Wanda Willson</span>&emsp;<span class="p1">₹3000</span><span class="p2">₹3000</span></span> -->
                 <!--  -->
                 <ul class="list-group  list-group-horizontal-sm">
-                                <li class="list-group-item" style="border:none;"><img src="../../public/img/twitter2.svg" alt=""></li>
+                                <li class="list-group-item" style="border:none;margin-top:-2.5%"><img src="../../public/img/twitter2.svg" alt=""></li>
                                 <li class="list-group-item user-n" style="border:none;">Wanda Willson</li>
                                 <li class="list-group-item  ms-auto" style="border:none;"><span class="p1">₹3000</span><span class="p2">₹3000</span></li>    
                 </ul>
                 </div>
             </div>
             <div class="card course-card mx-5">
-                <img src="../../public/img/jonas-kakaroto-mjRwhvqEC0U-unsplash.png" class="card-img-top course-img" alt="..."/>
+                <img src="../../public/img/design.png" class="card-img-top course-img" alt="..."/>
                 <div class="card-body">
-                <h5 class="card-title">Social Media Marketing - A to Z Content Marketing class 2021</h5>
+                <h5 class="card-title">Social Media Marketing - A to Z<br/> Content Marketing class 2021</h5>
                 <p class="card-text"><b>46,995</b> Student</p>
                 <!-- <span class="card-text duration-card"><img src="../../public/img/schedule-24px.svg" alt="" />11 hr 20 mins  &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<span class="n-lec"><img src="../../public/img/date_range-24px.svg" alt="" />44 Lectures</span></span>
                 <hr/>
@@ -150,7 +150,7 @@
                 <!-- <hr/><span><img src="../../public/img/twitter2.svg" alt="..."/><span class="user-n">Wanda Willson</span>&emsp;<span class="p1">₹3000</span><span class="p2">₹3000</span></span> -->
                 <!--  -->
                 <ul class="list-group  list-group-horizontal-sm">
-                                <li class="list-group-item" style="border:none;"><img src="../../public/img/twitter2.svg" alt=""></li>
+                                <li class="list-group-item" style="border:none;margin-top:-2.5%"><img src="../../public/img/twitter2.svg" alt=""></li>
                                 <li class="list-group-item user-n" style="border:none;">Albert Hitler</li>
                                 <li class="list-group-item  ms-auto" style="border:none;"><span class="p1">₹2000</span><span class="p2">₹2000</span></li>    
                 </ul>
@@ -212,7 +212,7 @@
                     <p class="card-text testimonial-text">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p>
                     <!-- <span class="card-text testimonial-profile"><img src="../../public/img/twitter2.svg" alt="" /></span><b>Anshul Jain</b><br/>&nbsp;&nbsp;&emsp;&emsp;Yesterday &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<span ><img src="../../public/img/right-quotation-sign.svg" alt="" /></span> -->
                     <ul class="list-group  list-group-horizontal-sm">
-                                <li class="list-group-item testimonial-profile"><img src="../../public/img/Facebook.svg" alt=""></li>
+                                <li class="list-group-item testimonial-profile" style="margin:-1%;"><img src="../../public/img/Facebook.svg" alt=""></li>
                                 <li class="list-group-item testimonial-profile"><b>Anshul Jain</b><br/>yesterday</li>
                                 <li class="list-group-item testimonial-profile ms-auto"><img src="../../public/img/right-quotation-sign.svg" alt=""></li>
     
@@ -226,7 +226,7 @@
                     <p class="card-text testimonial-text">It's a comprehensive online learning platform for everyone looking to learn and course pro. provinding this platform which is very beneficial for practicals. Students can revise everything at home like dissection and slides</p>
                     <!-- <span class="card-text testimonial-profile"><img src="../../public/img/twitter2.svg" alt="" /><b>&emsp;&emsp;Rajkumar Jain</b><br/>&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;Yesterday &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<span ><img src="../../public/img/right-quotation-sign.svg" alt="" /></span></span> -->
                     <ul class="list-group  list-group-horizontal-sm">
-                                <li class="list-group-item testimonial-profile"><img src="../../public/img/Facebook.svg" alt=""></li>
+                                <li class="list-group-item testimonial-profile" style="margin:-1%;"><img src="../../public/img/Facebook.svg" alt=""></li>
                                 <li class="list-group-item testimonial-profile"><b>Rajkumar Jain</b><br/>yesterday</li>
                                 <li class="list-group-item testimonial-profile ms-auto"><img src="../../public/img/right-quotation-sign.svg" alt=""></li>
     
@@ -714,7 +714,7 @@ border-bottom-width: 2px;
 }
 .msg-area{
     margin-bottom: 5%;
-    width:70%;
+    width:80%;
 background: #F8F9FB 0% 0% no-repeat padding-box;
 border-style: solid;
 border-color: #01CB63;
