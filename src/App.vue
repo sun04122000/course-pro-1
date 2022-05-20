@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <TopScreen />
+    <LandingPage />
   </div>
 </template>
 
 <script>
-import TopScreen from './components/TopScreen.vue';
-
+import LandingPage from './components/LandingPage.vue';
 export default {
   name: 'App',
   components: {
-    TopScreen
+    LandingPage
   },
   data(){
     return{
@@ -21,13 +20,4 @@ export default {
 </script>
 
 <style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.4;
-}
 </style>
