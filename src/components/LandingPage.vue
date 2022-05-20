@@ -38,10 +38,10 @@
         </ul>
     </div>
     </nav>
-
+    
     <div class="container-fluid card card-1">
-        <div class=" row no-gutters">
-            <div class="col-md-6 ml-5 pt-5">
+        <div class="row no-gutters">
+            <div class="col-md-6">
                 <div class="container card-body">
                     <p class="any-time-text">AnyTime, anywhere Learn on your schedule from any device</p>                                        
                     <p class="we-believe-text"><span class="believe-text">We Believe everyone has the capcity to be creative <span class="content-3">Course Pro</span> is a place where people develop their own potential</span></p>
